@@ -1,0 +1,17 @@
+{
+    "ros.distro": "melodic",
+    "python.autoComplete.extraPaths": [
+        "/home/ivr0ma/ws/devel_isolated/showpath/lib/python2.7/dist-packages",
+        "/home/ivr0ma/ws/devel_isolated/radar_slam/lib/python2.7/dist-packages",
+        "/home/ivr0ma/ws/devel_isolated/radar_ego_velocity_estimator/lib/python2.7/dist-packages",
+        "/home/ivr0ma/ws/devel_isolated/lio_sam/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ivr0ma/ws/devel_isolated/showpath/lib/python2.7/dist-packages",
+        "/home/ivr0ma/ws/devel_isolated/radar_slam/lib/python2.7/dist-packages",
+        "/home/ivr0ma/ws/devel_isolated/radar_ego_velocity_estimator/lib/python2.7/dist-packages",
+        "/home/ivr0ma/ws/devel_isolated/lio_sam/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "radar-test",
+    "service": "radar",
+    "dockerComposeFile": "./Docker-compose.yaml",
+    "extensions": [
+        "ms-iot.vscode-ros"
+    ],
+    "workspaceFolder": "/home/ivr0ma/ws",
+    "shutdownAction": "stopCompose"
+}
