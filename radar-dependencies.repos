@@ -1,7 +1,7 @@
 repositories:
   radar-inertial-odometry:
     type: git
-    url: https://github.com/lincoln1587/radar-inertial-odometry
+    url: https://github.com/ivr0ma/radar-inertial-odometry
     version: main
   gtsam:
     type: git

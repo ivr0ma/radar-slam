@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -q -y \
     gfortran \
     ros-melodic-catkin \
     python3-catkin-tools \
+    ros-melodic-rqt-image-view \
     ros-melodic-octomap-rviz-plugins && \
     rm -rf /var/lib/apt/lists/*
 
@@ -49,6 +50,8 @@ RUN apt-get update && apt-get install -q -y \
 
 # WORKDIR /home/${USERNAME}
 USER ${UID}:${GID}
+
+RUN echo "source /opt/ros/melodic/setup.bash" >> /home/${USER}/.bashrc
 
 ENTRYPOINT ["./ros_entrypoint.sh"]
 CMD [ "bash" ]
