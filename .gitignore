@@ -2,3 +2,4 @@ ws/build_isolated
 ws/devel_isolated
 ws/.catkin_workspace
 ws/*bag
+ws/*pcd
