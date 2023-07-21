@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -14,12 +11,12 @@
                 "gzclient",
                 "gzserver"
             ],
-            "target": "/home/ivr0ma/ws/src/radar-inertial-odometry/radar_ego_velocity_estimator/launch/demo.launch"
+            "target": "/home/radar/ws/src/radar-inertial-odometry/radar_ego_velocity_estimator/launch/demo.launch"
         },
         {
             "name": "ROS: Launch",
             "request": "launch",
-            "target": "/home/ivr0ma/ws/src/radar-inertial-odometry/radar_slam/launch/run.launch",
+            "target": "/home/radar/ws/src/radar-inertial-odometry/radar_slam/launch/run.launch",
             "launch": [
                 "rviz",
                 "gz",

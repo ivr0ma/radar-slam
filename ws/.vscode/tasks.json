@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "catkin_make_isolated",
+			"args": [
+				"--directory",
+				"/home/radar/ws",
+				"-DCMAKE_BUILD_TYPE=debug"
+			],
+			"problemMatcher": [
+				"$catkin-gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "catkin_make_isolated: build"
+		}
+	]
+}

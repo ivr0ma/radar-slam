@@ -6,17 +6,11 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/ivr0ma/ws/devel_isolated/radar_ego_velocity_estimator/include/**",
-        "/home/ivr0ma/ws/devel_isolated/lio_sam/include/**",
-        "/home/ivr0ma/ws/devel_isolated/gtsam/include/**",
+        "/home/radar/ws/devel_isolated/radar_ego_velocity_estimator/include/**",
+        "/home/radar/ws/devel_isolated/gtsam/include/**",
         "/opt/ros/melodic/include/**",
-        "/home/ivr0ma/ws/src/LIO-SAM/include/**",
-        "/home/ivr0ma/ws/src/NDT-library/ndt_cpu/include/**",
-        "/home/ivr0ma/ws/src/NDT-library/ndt_gpu/include/**",
-        "/home/ivr0ma/ws/src/NDT-library/ndt_tku/include/**",
-        "/home/ivr0ma/ws/src/NDT-library/pcl_omp_registration/include/**",
-        "/home/ivr0ma/ws/src/radar-inertial-odometry/radar_ego_velocity_estimator/include/**",
-        "/home/ivr0ma/ws/src/radar-inertial-odometry/radar_slam/include/**",
+        "/home/radar/ws/src/radar-inertial-odometry/radar_ego_velocity_estimator/include/**",
+        "/home/radar/ws/src/radar-inertial-odometry/radar_slam/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

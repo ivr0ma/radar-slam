@@ -1,6 +1,6 @@
 FROM osrf/ros:melodic-desktop-full-bionic
 
-ARG USER=ivr0ma
+ARG USER=radar
 ARG UID=1000
 ARG GID=1000
 ARG PW=1111
