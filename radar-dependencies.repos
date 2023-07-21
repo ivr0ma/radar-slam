@@ -19,11 +19,3 @@ repositories:
     type: git
     url: https://github.com/catkin/catkin_simple
     version: master
-  LIO-SAM:
-    type: git
-    url: https://github.com/TixiaoShan/LIO-SAM
-    version: master
-  NDT-library:
-    type: git
-    url: https://github.com/zju-sclab/NDT-library
-    version: master
