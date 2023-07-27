@@ -3,3 +3,4 @@ ws/devel_isolated
 ws/.catkin_workspace
 ws/*bag
 ws/*pcd
+ws/pcd-files
