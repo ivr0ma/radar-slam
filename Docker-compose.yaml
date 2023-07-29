@@ -15,22 +15,12 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      #- /home/ichramm/.Xauthority:/home/ichramm/.Xauthority:ro
-      #- /run/user/1000:/run/user/1000:ro
-      #- /run/user/1000/bus:/run/user/1000/bus:ro
     devices:
       - /dev:/dev
     environment:
-      #- DISPLAY: host.docker.internal:0.0
-      #- DISPLAY=:0
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
       - XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR
-      #- XDG_RUNTIME_DIR=/tmp/runtime-radar
-      #- DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1000/bus
-      #- WAYLAND_DISPLAY=$WAYLAND_DISPLAY
-      #- PULSE_SERVER=$PULSE_SERVER
-      #- LIBGL_ALWAYS_SOFTWARE=1
     build:
       context: .
       dockerfile: ./Dockerfile
