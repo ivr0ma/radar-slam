@@ -44,9 +44,15 @@ RUN apt-get update && apt-get install -q -y \
     g++ \
     gdb 
 
+RUN apt-get update && apt-get install -q -y \
+    libpcl-dev \
+    libeigen3-dev
+
 # Add workspace
 # RUN mkdir -p /home/${USER}/catkin_ws/src && \
 #     chown -R ${UID}:${GID} /home/${USER}
+# RUN mkdir -p /run/user/1000/ && \
+#     chmod 0700 /run/user/1000/
 
 # WORKDIR /home/${USERNAME}
 USER ${UID}:${GID}

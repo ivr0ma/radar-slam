@@ -79,6 +79,7 @@
         "random": "cpp",
         "set": "cpp",
         "string": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "*.ipp": "cpp"
     }
 }
