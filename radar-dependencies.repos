@@ -7,14 +7,6 @@ repositories:
     type: git
     url: https://github.com/borglab/gtsam
     version: 4.0.2
-  pcl:
-    type: git
-    url: https://github.com/PointCloudLibrary/pcl
-    version: pcl-1.8.0
-  eigen:
-    type: git
-    url: https://github.com/PX4/eigen
-    version: 3.3.4
   catkin_simple:
     type: git
     url: https://github.com/catkin/catkin_simple
